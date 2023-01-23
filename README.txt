@@ -1,5 +1,8 @@
 # hello-spring
 
+docker kill `docker ps -q`
+docker system prune --all
+
 sudo apt update
 sudo apt-get install -y openjdk-17-jdk maven git
 
