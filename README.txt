@@ -1,7 +1,10 @@
 # hello-spring
 
 sudo apt update
-sudo apt-get install -y openjdk-17-jdk maven
+sudo apt-get install -y openjdk-17-jdk maven git
+
+git clone git@github.com:Jaibw/hello-spring.git
+cd hello-spring
 
 mvn clean install
 docker build --tag hellospring .
