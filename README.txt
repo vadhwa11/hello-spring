@@ -9,3 +9,5 @@ cd hello-spring/
 mvn clean install
 docker build --tag hellospring .
 docker run -it -p 80:8080 -d hellospring
+
+Try to access http://PublicIP/hello like http://ec2-18-182-66-63.ap-northeast-1.compute.amazonaws.com/hello
